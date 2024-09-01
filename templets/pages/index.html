@@ -1,0 +1,491 @@
+{% load static %}{% load custom_tags %}{% load myapp_tags %}
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!-- ===============================================-->
+<!--    Document Title-->
+<!-- ===============================================-->
+<title id="text_1">Jadoo | Travel Agency Landing Page UI</title>
+<!-- ===============================================-->
+<!--    Favicons-->
+<!-- ===============================================-->
+<link href="assets/img/favicons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="assets/img/favicons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="assets/img/favicons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="assets/img/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="assets/img/favicons/manifest.json" rel="manifest"/>
+<meta content="assets/img/favicons/mstile-150x150.png" name="msapplication-TileImage"/>
+<meta content="#ffffff" name="theme-color"/>
+<!-- ===============================================-->
+<!--    Stylesheets-->
+<!-- ===============================================-->
+<link href="{% static 'assets/css/theme.css' %}" rel="stylesheet"/>
+</head>
+<body>
+<!-- ===============================================-->
+<!--    Main Content-->
+<!-- ===============================================-->
+<main class="main" id="top">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block" data-navbar-on-scroll="data-navbar-on-scroll">
+<div class="container" id="div_85"><a class="navbar-brand" href="index.html"><img alt="logo" height="34" id="image_225" src="{% static 'assets/img/logo.svg' %}"/></a>
+<button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"> </span></button>
+<div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="div_86">
+<ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
+<li class="nav-item px-3 px-xl-4"><a aria-current="page" class="nav-link fw-medium" href="#service" id="link_63">Service</a></li>
+<li class="nav-item px-3 px-xl-4"><a aria-current="page" class="nav-link fw-medium" href="#destination" id="link_64">Destination</a></li>
+<li class="nav-item px-3 px-xl-4"><a aria-current="page" class="nav-link fw-medium" href="#booking" id="link_65">Booking</a></li>
+<li class="nav-item px-3 px-xl-4"><a aria-current="page" class="nav-link fw-medium" href="#testimonial" id="link_66">Testimonial</a></li>
+<li class="nav-item px-3 px-xl-4"><a aria-current="page" class="nav-link fw-medium" href="#!" id="link_67">Login</a></li>
+<li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-dark order-1 order-lg-0 fw-medium" href="#!" id="link_68">Sign Up</a></li>
+<li class="nav-item dropdown px-3 px-lg-0"> <a aria-expanded="false" class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium" data-bs-toggle="dropdown" href="#" id="link_69" role="button">EN</a>
+<ul aria-labelledby="navbarDropdown" class="dropdown-menu dropdown-menu-end border-0 shadow-lg" style="border-radius:0.3rem;">
+<li><a class="dropdown-item" href="#!" id="link_70">EN</a></li>
+<li><a class="dropdown-item" href="#!" id="link_71">BN</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<section style="padding-top: 7rem;">
+<div class="bg-holder" id="bg_image_268" style="background-image:url({% static 'assets/img/hero/hero-bg.svg' %});">
+</div>
+<!--/.bg-holder-->
+<div class="container" id="div_88">
+<div class="row align-items-center" id="div_89">
+<div class="col-md-5 col-lg-6 order-0 order-md-1 text-end" id="div_90"><img alt="hero-header" class="pt-7 pt-md-0 hero-img" id="image_226" src="{% static 'assets/img/hero/hero-img.png' %}"/></div>
+<div class="col-md-7 col-lg-6 text-md-start text-center py-6" id="div_91">
+<h4 class="fw-bold text-danger mb-3" id="text_2">Best Destinations around the world</h4>
+<h1 class="hero-title" id="text_3">Travel, enjoy and live a new and full life</h1>
+<p class="mb-4 fw-medium" id="text_6">Built Wicket longer admire do barton vanity itself do in it.<br class="d-none d-xl-block"/>Preferred to sportsmen it engrossed listening. Park gate<br class="d-none d-xl-block"/>sell they west hard for the.</p>
+<div class="text-center text-md-start" id="div_92"> <a class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow" href="#!" id="link_72" role="button">Find out more</a>
+<div class="w-100 d-block d-md-none" id="div_93"></div><a data-bs-target="#popupVideo" data-bs-toggle="modal" href="#!" role="button"><span class="btn btn-danger round-btn-lg rounded-circle me-3 danger-btn-shadow"> <img alt="paly" id="image_227" src="{% static 'assets/img/hero/play.svg' %}" width="15"/></span></a><span class="fw-medium" id="text_7">Play Demo</span>
+<div aria-hidden="true" aria-labelledby="popupVideo" class="modal fade" id="div_94" tabindex="-1">
+<div class="modal-dialog modal-dialog-centered modal-lg" id="div_95">
+<div class="modal-content" id="div_96">
+<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" class="rounded" height="500px" src="https://www.youtube.com/embed/_lhdhL4UDIo" style="width:100%;max-height:500px;" title="YouTube video player"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pt-5 pt-md-9" id="service">
+<div class="container" id="div_97">
+<div class="position-absolute z-index--1 end-0 d-none d-lg-block" id="div_98"><img alt="service" id="image_228" src="{% static 'assets/img/category/shape.svg' %}" style="max-width: 200px"/></div>
+<div class="mb-7 text-center" id="div_99">
+<h5 class="text-secondary" id="text_8">CATEGORY </h5>
+<h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize" id="text_9">We Offer Best Services</h3>
+</div>
+<div class="row" id="div_100">
+<div class="col-lg-3 col-sm-6 mb-6" id="div_101">
+<div class="card service-card shadow-hover rounded-3 text-center align-items-center" id="div_102">
+<div class="card-body p-xxl-5 p-4" id="div_103"> <img alt="Service" id="image_229" src="{% static 'assets/img/category/icon1.png' %}" width="75"/>
+<h4 class="mb-3" id="text_10">Calculated Weather</h4>
+<p class="mb-0 fw-medium" id="text_11">Built Wicket longer admire do barton vanity itself do in it.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-6" id="div_104">
+<div class="card service-card shadow-hover rounded-3 text-center align-items-center" id="div_105">
+<div class="card-body p-xxl-5 p-4" id="div_106"> <img alt="Service" id="image_230" src="{% static 'assets/img/category/icon2.png' %}" width="75"/>
+<h4 class="mb-3" id="text_12">Best Flights</h4>
+<p class="mb-0 fw-medium" id="text_13">Engrossed listening. Park gate sell they west hard for the.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-6" id="div_107">
+<div class="card service-card shadow-hover rounded-3 text-center align-items-center" id="div_108">
+<div class="card-body p-xxl-5 p-4" id="div_109"> <img alt="Service" id="image_231" src="{% static 'assets/img/category/icon3.png' %}" width="75"/>
+<h4 class="mb-3" id="text_14">Local Events</h4>
+<p class="mb-0 fw-medium" id="text_15">Barton vanity itself do in it. Preferd to men it engrossed listening.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-sm-6 mb-6" id="div_110">
+<div class="card service-card shadow-hover rounded-3 text-center align-items-center" id="div_111">
+<div class="card-body p-xxl-5 p-4" id="div_112"> <img alt="Service" id="image_232" src="{% static 'assets/img/category/icon4.png' %}" width="75"/>
+<h4 class="mb-3" id="text_16">Customization</h4>
+<p class="mb-0 fw-medium" id="text_17">We deliver outsourced aviation services for military customers</p>
+</div>
+</div>
+</div>
+</div>
+</div><!-- end of .container-->
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pt-5" id="destination">
+<div class="container" id="div_113">
+<div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4" id="div_114"><img alt="destination" id="image_233" src="{% static 'assets/img/dest/shape.svg' %}"/></div>
+<div class="mb-7 text-center" id="div_115">
+<h5 class="text-secondary" id="text_18">Top Selling </h5>
+<h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize" id="text_19">Top Destinations</h3>
+</div>
+<div class="row" id="div_116">
+<div class="col-md-4 mb-4" id="div_117">
+<div class="card overflow-hidden shadow" id="div_118"> <img alt="Rome, Italty" class="card-img-top" id="image_234" src="{% static 'assets/img/dest/dest1.jpg' %}"/>
+<div class="card-body py-4 px-3" id="div_119">
+<div class="d-flex flex-column flex-lg-row justify-content-between mb-3" id="div_120">
+<h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!" id="link_73">Rome, Italty</a></h4><span class="fs-1 fw-medium" id="text_20">$5,42k</span>
+</div>
+<div class="d-flex align-items-center" id="div_121"> <img alt="navigation" id="image_235" src="{% static 'assets/img/dest/navigation.svg' %}" style="margin-right: 14px" width="20"/><span class="fs-0 fw-medium" id="text_21">10 Days Trip</span></div>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4" id="div_122">
+<div class="card overflow-hidden shadow" id="div_123"> <img alt="London, UK" class="card-img-top" id="image_236" src="{% static 'assets/img/dest/dest2.jpg' %}"/>
+<div class="card-body py-4 px-3" id="div_124">
+<div class="d-flex flex-column flex-lg-row justify-content-between mb-3" id="div_125">
+<h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!" id="link_74">London, UK</a></h4><span class="fs-1 fw-medium" id="text_22">$4.2k</span>
+</div>
+<div class="d-flex align-items-center" id="div_126"> <img alt="navigation" id="image_237" src="{% static 'assets/img/dest/navigation.svg' %}" style="margin-right: 14px" width="20"/><span class="fs-0 fw-medium" id="text_23">12 Days Trip</span></div>
+</div>
+</div>
+</div>
+<div class="col-md-4 mb-4" id="div_127">
+<div class="card overflow-hidden shadow" id="div_128"> <img alt="Full Europe" class="card-img-top" id="image_238" src="{% static 'assets/img/dest/dest3.jpg' %}"/>
+<div class="card-body py-4 px-3" id="div_129">
+<div class="d-flex flex-column flex-lg-row justify-content-between mb-3" id="div_130">
+<h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!" id="link_75">Full Europe</a></h4><span class="fs-1 fw-medium" id="text_24">$15k</span>
+</div>
+<div class="d-flex align-items-center" id="div_131"> <img alt="navigation" id="image_239" src="{% static 'assets/img/dest/navigation.svg' %}" style="margin-right: 14px" width="20"/><span class="fs-0 fw-medium" id="text_25">28 Days Trip</span></div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- end of .container-->
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section id="booking">
+<div class="container" id="div_132">
+<div class="row align-items-center" id="div_133">
+<div class="col-lg-6" id="div_134">
+<div class="mb-4 text-start" id="div_135">
+<h5 class="text-secondary" id="text_26">Easy and Fast </h5>
+<h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize" id="text_27">Book your next trip in 3 easy steps</h3>
+</div>
+<div class="d-flex align-items-start mb-5" id="div_136">
+<div class="bg-primary me-sm-4 me-3 p-3" id="div_137" style="border-radius: 13px"> <img alt="steps" id="image_240" src="{% static 'assets/img/steps/selection.svg' %}" width="22"/></div>
+<div class="flex-1" id="div_138">
+<h5 class="text-secondary fw-bold fs-0" id="text_28">Choose Destination</h5>
+<p id="text_30">Choose your favourite place. No matter <br class="d-none d-sm-block"/> where you travel inside the World.</p>
+</div>
+</div>
+<div class="d-flex align-items-start mb-5" id="div_139">
+<div class="bg-danger me-sm-4 me-3 p-3" id="div_140" style="border-radius: 13px"> <img alt="steps" id="image_241" src="{% static 'assets/img/steps/water-sport.svg' %}" width="22"/></div>
+<div class="flex-1" id="div_141">
+<h5 class="text-secondary fw-bold fs-0" id="text_31">Make Payment</h5>
+<p id="text_33">After find your perfect spot, make your <br class="d-none d-sm-block"/> payment and get ready to travel.</p>
+</div>
+</div>
+<div class="d-flex align-items-start mb-5" id="div_142">
+<div class="bg-info me-sm-4 me-3 p-3" id="div_143" style="border-radius: 13px"> <img alt="steps" id="image_242" src="{% static 'assets/img/steps/taxi.svg' %}" width="22"/></div>
+<div class="flex-1" id="div_144">
+<h5 class="text-secondary fw-bold fs-0" id="text_34">Reach Airport on Selected Date</h5>
+<p id="text_36">Lastly, you have to arrive at the airport <br class="d-none d-sm-block"/> on time and enjoy the vacation.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-6 d-flex justify-content-center align-items-start" id="div_145">
+<div class="card position-relative shadow" id="div_146" style="max-width: 370px;">
+<div class="position-absolute z-index--1 me-10 me-xxl-0" id="div_147" style="right:-160px;top:-210px;"> <img alt="shape" id="image_243" src="{% static 'assets/img/steps/bg.png' %}" style="max-width:550px;"/></div>
+<div class="card-body p-3" id="div_148"> <img alt="booking" class="mb-4 mt-2 rounded-2 w-100" id="image_244" src="{% static 'assets/img/steps/booking-img.jpg' %}"/>
+<div id="div_149">
+<h5 class="fw-medium" id="text_37">Trip To Greece</h5>
+<p class="fs--1 mb-3 fw-medium" id="text_38">14-29 June | by Robbin joseph</p>
+<div class="icon-group mb-4" id="div_150"> <span class="btn icon-item"> <img alt="" id="image_245" src="{% static 'assets/img/steps/leaf.svg' %}"/></span><span class="btn icon-item"> <img alt="" id="image_246" src="{% static 'assets/img/steps/map.svg' %}"/></span><span class="btn icon-item"> <img alt="" id="image_247" src="{% static 'assets/img/steps/send.svg' %}"/></span>
+</div>
+<div class="d-flex align-items-center justify-content-between" id="div_151">
+<div class="d-flex align-items-center mt-n1" id="div_152"><img alt="building" class="me-3" id="image_248" src="{% static 'assets/img/steps/building.svg' %}" width="18"/><span class="fs--1 fw-medium" id="text_39">24 people going</span></div>
+<div class="show-onhover position-relative" id="div_153">
+<div class="card hideEl shadow position-absolute end-0 start-xl-50 bottom-100 translate-xl-middle-x ms-3" id="div_154" style="width: 260px;border-radius:18px;">
+<div class="card-body py-3" id="div_155">
+<div class="d-flex" id="div_156">
+<div id="div_157" style="margin-right: 10px"> <img alt="favorite" class="rounded-circle" id="image_249" src="{% static 'assets/img/steps/favorite-placeholder.png' %}" width="50"/></div>
+<div id="div_158">
+<p class="fs--1 mb-1 fw-medium" id="text_40">Ongoing </p>
+<h5 class="fw-medium mb-3" id="text_41">Trip to rome</h5>
+<h6 class="fs--1 fw-medium mb-2" id="text_43"><span id="text_42">40%</span> completed</h6>
+<div class="progress" id="div_159" style="height: 6px;">
+<div aria-valuemax="100" aria-valuemin="0" aria-valuenow="25" class="progress-bar" id="div_160" role="progressbar" style="width: 40%;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<button class="btn"> <img alt="step" id="image_250" src="{% static 'assets/img/steps/heart.svg' %}" width="20"/></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- end of .container-->
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section id="testimonial">
+<div class="container" id="div_161">
+<div class="row" id="div_162">
+<div class="col-lg-5" id="div_163">
+<div class="mb-8 text-start" id="div_164">
+<h5 class="text-secondary" id="text_44">Testimonials </h5>
+<h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive text-capitalize" id="text_45">What people say about Us.</h3>
+</div>
+</div>
+<div class="col-lg-1" id="div_165"></div>
+<div class="col-lg-6" id="div_166">
+<div class="pe-7 ps-5 ps-lg-0" id="div_167">
+<div class="carousel slide carousel-fade position-static" data-bs-ride="carousel" id="div_168">
+<div class="carousel-indicators" id="div_169">
+<button aria-current="true" aria-label="Testimonial 0" class="active" data-bs-slide-to="0" data-bs-target="#testimonialIndicator" type="button"></button>
+<button aria-current="true" aria-label="Testimonial 1" class="false" data-bs-slide-to="1" data-bs-target="#testimonialIndicator" type="button"></button>
+<button aria-current="true" aria-label="Testimonial 2" class="false" data-bs-slide-to="2" data-bs-target="#testimonialIndicator" type="button"></button>
+</div>
+<div class="carousel-inner" id="div_170">
+<div class="carousel-item position-relative active" id="div_171">
+<div class="card shadow" id="div_172" style="border-radius:10px;">
+<div class="position-absolute start-0 top-0 translate-middle" id="div_173"> <img alt="" class="rounded-circle fit-cover" height="65" id="image_251" src="{% static 'assets/img/testimonial/author.png' %}" width="65"/></div>
+<div class="card-body p-4" id="div_174">
+<p class="fw-medium mb-4" id="text_46">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
+<h5 class="text-secondary" id="text_47">Mike taylor</h5>
+<p class="fw-medium fs--1 mb-0" id="text_48">Lahore, Pakistan</p>
+</div>
+</div>
+<div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" id="div_175" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
+</div>
+<div class="carousel-item position-relative" id="div_176">
+<div class="card shadow" id="div_177" style="border-radius:10px;">
+<div class="position-absolute start-0 top-0 translate-middle" id="div_178"> <img alt="" class="rounded-circle fit-cover" height="65" id="image_252" src="{% static 'assets/img/testimonial/author2.png' %}" width="65"/></div>
+<div class="card-body p-4" id="div_179">
+<p class="fw-medium mb-4" id="text_49">"Jadoo is recognized as one of the finest travel agency in the world. When it came to planning a trip, I found them to be dependable."</p>
+<h5 class="text-secondary" id="text_50">Thomas Wagon</h5>
+<p class="fw-medium fs--1 mb-0" id="text_51">CEO of Red Button</p>
+</div>
+</div>
+<div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" id="div_180" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
+</div>
+<div class="carousel-item position-relative" id="div_181">
+<div class="card shadow" id="div_182" style="border-radius:10px;">
+<div class="position-absolute start-0 top-0 translate-middle" id="div_183"> <img alt="" class="rounded-circle fit-cover" height="65" id="image_253" src="{% static 'assets/img/testimonial/author3.png' %}" width="65"/></div>
+<div class="card-body p-4" id="div_184">
+<p class="fw-medium mb-4" id="text_52">"On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no."</p>
+<h5 class="text-secondary" id="text_53">Kelly Willium</h5>
+<p class="fw-medium fs--1 mb-0" id="text_54">Khulna, Bangladesh</p>
+</div>
+</div>
+<div class="card shadow-sm position-absolute top-0 z-index--1 mb-3 w-100 h-100" id="div_185" style="border-radius:10px;transform:translate(25px, 25px)"> </div>
+</div>
+</div>
+<div class="carousel-navigation d-flex flex-column flex-between-center position-absolute end-0 top-lg-50 bottom-0 translate-middle-y z-index-1 me-3 me-lg-0" id="div_186" style="height:60px;width:20px;">
+<button class="carousel-control-prev position-static" data-bs-slide="prev" data-bs-target="#testimonialIndicator" type="button"><img alt="icon" id="image_254" src="{% static 'assets/img/icons/up.svg' %}" width="16"/></button>
+<button class="carousel-control-next position-static" data-bs-slide="next" data-bs-target="#testimonialIndicator" type="button"><img alt="icon" id="image_255" src="{% static 'assets/img/icons/down.svg' %}" width="16"/></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!-- end of .container-->
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+<div class="position-relative pt-9 pt-lg-8 pb-6 pb-lg-8" id="div_187">
+<div class="container" id="div_188">
+<div class="row row-cols-lg-5 row-cols-md-3 row-cols-2 flex-center" id="div_189">
+<div class="col" id="div_190">
+<div class="card shadow-hover mb-4" id="div_191" style="border-radius:10px;">
+<div class="card-body text-center" id="div_192"> <img alt="" class="img-fluid" id="image_256" src="{% static 'assets/img/partner/1.png' %}"/></div>
+</div>
+</div>
+<div class="col" id="div_193">
+<div class="card shadow-hover mb-4" id="div_194" style="border-radius:10px;">
+<div class="card-body text-center" id="div_195"> <img alt="" class="img-fluid" id="image_257" src="{% static 'assets/img/partner/2.png' %}"/></div>
+</div>
+</div>
+<div class="col" id="div_196">
+<div class="card shadow-hover mb-4" id="div_197" style="border-radius:10px;">
+<div class="card-body text-center" id="div_198"> <img alt="" class="img-fluid" id="image_258" src="{% static 'assets/img/partner/3.png' %}"/></div>
+</div>
+</div>
+<div class="col" id="div_199">
+<div class="card shadow-hover mb-4" id="div_200" style="border-radius:10px;">
+<div class="card-body text-center" id="div_201"> <img alt="" class="img-fluid" id="image_259" src="{% static 'assets/img/partner/4.png' %}"/></div>
+</div>
+</div>
+<div class="col" id="div_202">
+<div class="card shadow-hover mb-4" id="div_203" style="border-radius:10px;">
+<div class="card-body text-center" id="div_204"> <img alt="" class="img-fluid" id="image_260" src="{% static 'assets/img/partner/5.png' %}"/></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pt-6">
+<div class="container" id="div_205">
+<div class="py-8 px-5 position-relative text-center" id="div_206" style="background-color: rgba(223, 215, 249, 0.199);border-radius: 129px 20px 20px 20px;">
+<div class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3" id="div_207"> <img alt="send icon" id="image_261" src="{% static 'assets/img/cta/send.png' %}" style="max-width:70px;"/></div>
+<div class="position-absolute end-0 top-0 z-index--1" id="div_208"> <img alt="cta shape" id="image_262" src="{% static 'assets/img/cta/shape-bg2.png' %}" width="264"/></div>
+<div class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block" id="div_209"> <img alt="cta shape" id="image_263" src="{% static 'assets/img/cta/shape-bg1.png' %}" style="max-width: 340px;"/></div>
+<div class="row justify-content-center" id="div_210">
+<div class="col-lg-8 col-md-10" id="div_211">
+<h2 class="text-secondary lh-1-7 mb-7" id="text_55">Subscribe to get information, latest news and other interesting offers about Cobham</h2>
+<form class="row g-3 align-items-center w-lg-75 mx-auto">
+<div class="col-sm" id="div_212">
+<div class="input-group-icon" id="div_213">
+<input aria-label="email" class="form-control form-little-squirrel-control" placeholder="Enter email " type="email"/><img alt="mail" class="input-box-icon" id="image_264" src="{% static 'assets/img/cta/mail.svg' %}" width="17"/>
+</div>
+</div>
+<div class="col-sm-auto" id="div_214">
+<button class="btn btn-danger orange-gradient-btn fs--1" id="text_56">Subscribe</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div><!-- end of .container-->
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+<!-- ============================================-->
+<!-- <section> begin ============================-->
+<section class="pb-0 pb-lg-4">
+<div class="container" id="div_215">
+<div class="row" id="div_216">
+<div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0" id="div_217"> <img alt="jadoo" class="mb-4" id="image_265" src="{% static 'assets/img/logo2.svg' %}" width="150"/>
+<p class="fs--1 text-secondary mb-0 fw-medium" id="text_57">Book your trip in minute, get full Control for much longer.</p>
+</div>
+<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2" id="div_218">
+<h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4" id="text_58">Company</h4>
+<ul class="list-unstyled mb-0">
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_76">About</a></li>
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_77">Careers</a></li>
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_78">Mobile</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3" id="div_219">
+<h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4" id="text_59">Contact</h4>
+<ul class="list-unstyled mb-0">
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_79">Help/FAQ</a></li>
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_80">Press</a></li>
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_81">Affiliate</a></li>
+</ul>
+</div>
+<div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4" id="div_220">
+<h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4" id="text_60">More</h4>
+<ul class="list-unstyled mb-0">
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_82">Airlinefees</a></li>
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_83">Airline</a></li>
+<li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!" id="link_84">Low fare tips</a></li>
+</ul>
+</div>
+<div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1" id="div_221">
+<div class="icon-group mb-4" id="div_222"> <a class="text-decoration-none icon-item shadow-social" href="#!" id="facebook"><i class="fab fa-facebook-f"> </i></a><a class="text-decoration-none icon-item shadow-social" href="#!" id="instagram"><i class="fab fa-instagram"> </i></a><a class="text-decoration-none icon-item shadow-social" href="#!" id="twitter"><i class="fab fa-twitter"> </i></a></div>
+<h4 class="fw-medium font-sans-serif text-secondary mb-3" id="text_61">Discover our app</h4>
+<div class="d-flex align-items-center" id="div_223"> <a href="#!"> <img alt="play store" class="me-2" id="image_266" src="{% static 'assets/img/play-store.png' %}"/></a><a href="#!"> <img alt="apple store" id="image_267" src="{% static 'assets/img/apple-store.png' %}"/></a></div>
+</div>
+</div>
+</div><!-- end of .container-->
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+<div class="py-5 text-center" id="div_224">
+<p class="mb-0 text-secondary fs--1 fw-medium" id="text_62">All rights reserved@jadoo.co </p>
+</div>
+</main>
+<!-- ===============================================-->
+<!--    End of Main Content-->
+<!-- ===============================================-->
+<!-- ===============================================-->
+<!--    JavaScripts-->
+<!-- ===============================================-->
+<script src="{% static 'vendors/@popperjs/popper.min.js' %}"></script>
+<script src="{% static 'vendors/bootstrap/bootstrap.min.js' %}"></script>
+<script src="{% static 'vendors/is/is.min.js' %}"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+<script src="{% static 'vendors/fontawesome/all.min.js' %}"></script>
+<script src="{% static 'assets/js/theme.js' %}"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet"/>
+<script id="templateData" type="application/json">{{ json_data|safe }}</script><script>
+        function updateHtmlFromJson(jsonData) {
+            // Update text tags
+            jsonData.texts.forEach(tag => {
+                const element = document.getElementById(tag.id);
+                if (element) {
+                    element.textContent = tag.text;
+                    if (tag['text_style'] !== 'no style') {
+                        element.style.fontFamily = tag['text_style'];
+                    }
+                    if (tag.color !== 'no color') {
+                        element.style.color = tag.color;
+                    }
+                }
+            });
+
+            // Update images
+            jsonData.images.forEach(image => {
+                const element = document.getElementById(image.id);
+                if (element) {
+                    element.src = image.src;
+                     if (element.tagName.toLowerCase() === 'img') {
+                        element.src = image.src;
+                    }else {
+                        element.style.backgroundImage = `url(${image.src})`;
+                    }
+                }
+            });
+
+            // Update links
+            jsonData.links.forEach(link => {
+                const element = document.getElementById(link.id);
+                if (element) {
+                    element.textContent = link.name;
+                    element.href = link.link;
+                }
+            });
+
+            // Update div background colors
+            jsonData.divs.forEach(div => {
+                const element = document.getElementById(div.id);
+                if (element) {
+                    element.style.backgroundColor = div.background_color;
+                }
+            });
+        }
+
+        // Fetch JSON data from templateData
+        const jsonData = JSON.parse(document.getElementById('templateData').textContent);
+
+        // Call the function to update HTML elements
+        document.addEventListener('DOMContentLoaded', () => {
+            updateHtmlFromJson(jsonData);
+        });
+    </script><script>
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('[id]').forEach(element => {
+        element.addEventListener('click', function () {
+          const id = this.id;
+          window.flutter_inappwebview.callHandler('Toaster', id);
+        });
+      });
+    });
+    </script></body>
+</html>
